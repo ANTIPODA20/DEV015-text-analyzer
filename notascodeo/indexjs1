@@ -1,0 +1,12 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const textarea = document.querySelector('#texto');
+  const contadorPalabras = document.querySelector('#contador');
+    
+      const textarea = document.querySelector('palabras');
+      const contadorPalabras = document.querySelector('#contador');
+      function contarPalabras() {
+        const texto = textarea.value.trim();
+        const palabras = texto.split(/\s+/); 
+        contadorPalabras.textContent = palabras.length;
+    }
+    textarea.addEventListener('input', contarPalabras);

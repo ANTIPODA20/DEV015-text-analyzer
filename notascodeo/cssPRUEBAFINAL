@@ -1,0 +1,128 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/1364481072/es/vector/patr%C3%B3n-vectorial-sin-fisuras-de-boceto-dibujado-a-mano-garabato-de-tablero-de-ajedrez.webp?s=1024x1024&w=is&k=20&c=--TSr5v3CzHxQ4-VATLLOzhdRF-sRhHjHfy8T88nBf4=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.6;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header {
+color: #black;
+padding: 1px 30px;
+background-color:rgb(248, 245, 44);
+width:50%;
+margin:10;
+border-bottom: 1px solid #E0E0E0
+font-family:"Cardo", serif;
+display: flex; /* Use flexbox to align items horizontally */
+align-items: center; /* Center items vertically */
+justify-content: flex-start; 
+text-align: center;
+
+
+}
+
+
+.img-page{
+width: 50px;
+}
+
+textarea[name="user-input"] {
+background-color: rgb(248, 245, 44);
+border: 1px solid #E0E0E0;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+display: flex;
+margin: 0 auto;
+width: 1035px;
+height: 250px;
+font-family: "Cardo", serif;
+
+}
+
+
+#reset-button {
+background-color: rgb(248, 245, 44);
+/*Esto centra el botón*/
+margin: 0 auto;
+display: flex;
+/*Hasta acá*/
+color: #black;
+border-radius: 10px ;
+width: 150px;
+height: 40px;
+align-items: center; /* Centra content verticalmente */
+justify-content: center; /* Centra content horizontalmente */
+font-weight:bold;
+transition: background-color 0.5s linear;
+font-family: "Cardo", serif;
+
+}
+
+#reset-button:hover {
+background-color: #EDA833
+}
+
+ul {
+list-style-type:none;
+text-align: center;
+display: flex;
+padding: 20px;
+background-color: rgb(248, 245, 44);
+justify-content: space-around;
+width: 1000px;
+margin: 0 auto;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom: 1px solid #E0E0E0
+
+ 
+
+}
+
+.label {
+  display: inline-block;
+  margin-right: 20px; 
+  padding: 10px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #038F9B;
+   color:#3E3F3F;
+font-weight:bold;
+border-radius: 20px;
+
+
+}
+
+
+
+.word-count, .char-count, .char-count-excluding-spaces, .num-count, .num-sum, .av-length  {
+padding: 5px;
+display: inline-block; 
+min-width: 20px; 
+text-align: center;
+color: #038F9B;
+font-size: 30px;
+}
+footer{
+color: rgba(7, 0, 0, 0.932);
+padding: 1px 30px;
+background-color:rgb(248, 245, 44);
+width:100%;
+margin:0;
+border-bottom: 1px solid #E0E0E0
+height:45px;
+width:750px;
+text-align:center;
+font-family: 'caption';
+font-style: oblique;
+margin:0 auto;
+padding:10px;
+color:black;
+}

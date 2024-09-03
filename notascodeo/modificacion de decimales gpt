@@ -1,0 +1,30 @@
+ getNumberSum: function(text) {
+    const words = text.trim().split(/\s+/).filter(word => word.length > 0);
+    let sum = 0;
+    for (let i = 0; i < words.length; i++) {
+     
+      if (!isNaN(parseFloat(words[i]))) {
+        sum += parseFloat(words[i]);
+      }
+    }
+    
+    return parseFloat(sum.toFixed(1));
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+   getNumberSum: function(text) {
+    const words = text.trim().split(/\s+/).filter(word => word.length > 0);
+    let sum = 0;
+    for (let i = 0; i < words.length; i++) {
+      if (!isNaN(words[i])) {
+        sum += parseFloat(words[i]);
+      }
+    }
+    return sum;
+  },

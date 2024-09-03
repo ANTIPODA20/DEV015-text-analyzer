@@ -1,0 +1,108 @@
+/*General, aquí poner el color de fondo que ya habias puesto, también cambié la fuente pero puedes elegir alguna*/
+body{
+    margin:20px;
+    padding:20px;
+    background-image: url("imagenfondo2.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    font-family:'courier';
+    font-size:larger;
+  
+    
+}
+
+ /*Encabezados */
+header{
+    height:60px;
+    width:500px;
+    padding:30px;
+    text-align: center;
+    color:#ffffff;
+    font-family:'courier';
+    margin:0 auto;
+}
+#cuadrotexto{
+    height:75px;
+    width:735px;
+    padding:5px;
+    font-family:'caption';
+    font-style: courier;
+    margin: 0 auto;
+    color:whitesmoke;
+
+}
+
+/*analyzer*/
+{
+    height:98px;
+    width:500px;
+    margin:0 auto; 
+    padding-bottom:250px;
+    flex-direction:center ;
+    
+}
+
+/*enlistado*/
+ul{
+   height:600px;
+   width:500px;
+   margin-top: 30px;
+   display:ruby;
+   list-style-type: none;
+   justify-content: space-between;
+   br { display: none; }
+
+    
+}
+
+
+/*enlistado*/
+.list{
+    height:10px;
+    width:250px;
+    padding:8px ; 
+    margin-right: 10px;
+    border-radius: 17px;
+    font-size: 15px;
+    border: 1px solid #7cecd0;
+    background-color:   #0c7c77;
+    color: white;  
+}
+
+textarea[name="user-input"]{ 
+    height:150px;
+    width:700px;
+    padding:15px;
+    background-color:#cafcf8fa;
+    border-radius: 20px;
+    border-color:#07524e;
+    margin:center;
+    font-size:22px;
+    font-family:'caption' ;
+}
+
+/*boton para re-iniciar el cuadro de texto*/
+#reset-button{
+    height:50px;
+    width:160px; /*ancho*/
+    background-color: #07706b;
+    margin-left: 290px;
+    border-color: #9fffe7;
+    border-radius: 17px;
+    font-size: 23px;
+    color:whitesmoke;
+    cursor: pointer;   
+}
+#reset-button:hover{
+    background-color: #25cfb3; 
+}
+footer{
+    height:90px;
+    width:730px;
+    text-align:center;
+    font-family: 'caption';
+    font-style: oblique;
+    margin:0 auto;
+    padding:10px;
+    color:whitesmoke;
+}

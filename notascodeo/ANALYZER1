@@ -1,0 +1,27 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const textarea = document.querySelector('#texto');
+  const listaItems = document.querySelectorAll('#resultados li span');
+
+  function analizarTexto() {
+      const texto = textarea.value;
+
+      // Caracteres
+      const caracteres = texto.length;
+      listaItems[0].textContent = caracteres;
+
+      // Caracteres sin espacios
+      const caracteresSinEspacios = texto.replace(/\s/g, '').length;
+      listaItems[1].textContent = caracteresSinEspacios;
+
+      // Palabras
+      const palabras = texto.trim().split(/\s+/);
+      listaItems[2].textContent = palabras.length;
+
+  }
+
+  // Agregar event listener al textarea para el evento 'input'
+  textarea.addEventListener('input', analizarTexto);
+
+  // Llamar a analizarTexto() al cargar la página
+  analizarTexto();
+});
